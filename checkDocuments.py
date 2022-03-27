@@ -36,6 +36,7 @@ else:
 	i = 0
 	while(i < papersNum):
 		img = cv2.imread(papers_path + papers_imgs[i])
+
 		
 		#img_copy = img.copy()
 		Result,img, _ = utilis.getresults(img, students, heightImg, widthImg)
